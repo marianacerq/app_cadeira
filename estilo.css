@@ -1,4 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: justify;
+}
+
+.titulo{
+    text-align: center;
+}
+
 .rodape{
     text-align: center;
-    font-stretch: extra-condensed;
+}
+
+.direitos{
+    text-align: center;
+}
+.baner{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px
+}
+.baner> h1{
+margin: auto;
+text-align: center;
+padding: 100px;
+box-sizing: border-box;
+text-shadow: 0px 0px 10px #000;
+font-size: 3em;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.destinos {
+    margin-bottom: 30px;
+}
+
+.destinos h2 {
+    margin-top: 0;
+}
+
+.destinos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.destinos li {
+    margin-bottom: 20px;
+}
+
+.destinos img {
+    max-width: 300px;
+}
+
+.inscricao form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.inscricao label, .inscricao input {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+li{
+    padding: 10px;
+    width: 300px;
+    border: 3px solid #333;
+
+    float: left;
+    margin: 30px;
+    height: 430px;
+}
+li>img{
+    width: 300px;
+    height: 200px;
+}
+ul{
+
+    width: 1194px;
+    overflow: hidden;
+
+}
+section{
+    width: 1090px;
+    margin: auto;
+
+}
+.conhecer{
+    text-align: center;
+    width: 130px;
+    background-color: #333;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px 0 ;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    font-size: 1.5em;
+    top: 80px;
+    right: 13px;
+}
+main{
+    width: 1000px;
+    margin: auto;
+}
+h3{
+    color: rgb(0, 110, 255)
+
+}
+nav{
+    background-color: #333;
+    text-align: center;
+    padding-bottom: 8px;
+}
+nav>a{
+    color: #fff;
+    text-decoration: dashed;
+    font-size: 20px;
+    
+
+}
+main>img{
+    width: 1000px;
+}
+main>p{
+    font-size: 20px;
 }
