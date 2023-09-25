@@ -218,19 +218,21 @@ main>p{
     text-align: justify;
     margin-right: 0;
 }
+
 .linha{
     width: 1300px;
     margin: auto;
     display: block;
+    height: 500px;
+    overflow: hidden;
     
 }
-.linha img{
-    max-height: 1000px;
-}
-
+/* .linha img{
+    max-height: 100px;
+} */
 
 .coluna{
-    width: 400px;
+    width: 30%;
     padding: 1%;
     /* display: inline-block; */
     float: left;
@@ -243,12 +245,11 @@ main>p{
 }
 
 .coluna img{
-    width: 80%;
-    
-
+    width: 100%;
+    height: 1;
 }
 
-.coluna text{
+.coluna h5{
     font-family: Arial;
     overflow: auto;
 
