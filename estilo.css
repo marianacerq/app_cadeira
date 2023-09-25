@@ -121,7 +121,7 @@ footer {
 li{
     padding: 10px;
     width: 300px;
-    border: 3px solid #333;
+    border: 3px solid #2c2c2c;
 
     float: left;
     margin: 30px;
@@ -192,6 +192,7 @@ main>p{
     float: left;
     width: 700px;
     text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 
@@ -235,7 +236,7 @@ main>p{
     float: left;
     margin: 0 auto;
     /* border: 1px solid #333; */
-    height: 500px;
+    height: 600px;
     overflow: hidden;
 
 
@@ -254,9 +255,11 @@ main>p{
 }
 
 .coluna button{
-    border-radius: 10px;
+    height: 300;
+    border-radius: 0px;
     color: #fff;
-    background-color: #333;
+    background-color: #000000;
+    padding: 1rem;
     
     
     
@@ -269,3 +272,13 @@ main>p{
     padding: 1rem;
     text-align: center;
 }
+
+.menu{
+    background-color: #000;
+}
+   /* .menuprincipal{
+    background-color: #ffffff; 
+    color: #000000;
+    padding: 1rem; 
+    text-align: center;
+ } */
