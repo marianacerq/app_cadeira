@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabi Office - Cadastro</title>
+    <link rel="stylesheet" href="../estilo.css"> 
+</head>
+<body>
+    <header>
+        <img src="../imagens/logo_redonda.png" alt="">
+
+        <div class="baner">
+            <h1>Mabi Office</h1>
+        </div>
+    </header>
+    <div class="login">
+        <div class="box-login">
+            <div class="login_entrar">
+                <form id="registrationForm">
+                    <div class="form-group">
+                        <label for="username">Nome de Usuário</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirme a Senha</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+                    <input type="submit" value="Cadastrar">
+                </form>
+            </div> 
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            
+            const username = document.getElementById("userLogin").value;
+            const password = document.getElementById("userPassword").value;
+            
+            if (username === "usuario" && password === "senha") {
+                window.location.href = "pagina_principal.html";
+            } else {
+                alert("Credenciais inválidas. Tente novamente.");
+            }
+        });
+    </script>
+    <footer>
+        <p>&copy; 2023 Mabi Office - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
