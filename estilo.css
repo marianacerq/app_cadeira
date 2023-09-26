@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
 }
 
 p{
@@ -220,10 +221,11 @@ main>p{
 }
 
 .linha{
+
     width: 1300px;
     margin: auto;
     display: block;
-    height: 500px;
+    height: 700px;
     overflow: hidden;
     
 }
@@ -240,7 +242,6 @@ main>p{
     /* border: 1px solid #333; */
     height: 600px;
     overflow: hidden;
-
 
 }
 
